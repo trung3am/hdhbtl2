@@ -1,0 +1,7 @@
+1 5
+alloc 2343  0
+alloc 34343 0
+alloc 34535 0
+free 0
+free 0
+alloc 1024

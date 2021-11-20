@@ -35,7 +35,7 @@ static void * cpu_routine(void * args) {
 		/* Check the status of current process */
 		if (proc == NULL) {
 			/* No process is running, the we load new process from
-		 	* ready queue */
+		 	* eeady queue */
 			proc = get_proc();
 		}else if (proc->pc == proc->code->size) {
 			/* The porcess has finish it job */
@@ -165,7 +165,7 @@ int main(int argc, char * argv[]) {
 	/* Stop timer */
 	stop_timer();
 
-	printf("\nMEMORY CONTENT: \n");
+	printf("\n====Final Dump ===== \n");
 	dump();
 
 	return 0;
